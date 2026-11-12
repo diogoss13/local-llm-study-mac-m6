@@ -1,0 +1,327 @@
+[
+  {
+    "model": "qwen3.5:9b-q4_K_M",
+    "requested_context": 131072,
+    "memory_before": {
+      "swap_used_mb": 1814.38,
+      "pressure": 1
+    },
+    "tests": [
+      {
+        "seconds": 0.848,
+        "tokens_per_second": 16.75,
+        "prompt_tokens": 111529,
+        "prompt_eval_seconds": 0.146,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "VJCTDQMKKF"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 834966125,
+          "load_duration": 27862875,
+          "prompt_eval_count": 111529,
+          "prompt_eval_cached_count": 111525,
+          "prompt_eval_duration": 146144000,
+          "eval_count": 8,
+          "eval_duration": 477641000,
+          "memory_samples": []
+        },
+        "key": "BEGIN1",
+        "expected": "VJCTDQMKKF",
+        "passed": true
+      },
+      {
+        "seconds": 2.968,
+        "tokens_per_second": 15.75,
+        "prompt_tokens": 111529,
+        "prompt_eval_seconds": 2.288,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "LKJWXDUEFV"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2966901625,
+          "load_duration": 3368833,
+          "prompt_eval_count": 111529,
+          "prompt_eval_cached_count": 111017,
+          "prompt_eval_duration": 2287748000,
+          "eval_count": 8,
+          "eval_duration": 507809000,
+          "memory_samples": []
+        },
+        "key": "BEGIN2",
+        "expected": "LKJWXDUEFV",
+        "passed": true
+      },
+      {
+        "seconds": 2.816,
+        "tokens_per_second": 17.38,
+        "prompt_tokens": 111530,
+        "prompt_eval_seconds": 2.292,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "LSGKENPTND"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2814051541,
+          "load_duration": 4175166,
+          "prompt_eval_count": 111530,
+          "prompt_eval_cached_count": 111017,
+          "prompt_eval_duration": 2291695000,
+          "eval_count": 6,
+          "eval_duration": 345257000,
+          "memory_samples": []
+        },
+        "key": "MIDDLE1",
+        "expected": "LSGKENPTND",
+        "passed": true
+      },
+      {
+        "seconds": 2.854,
+        "tokens_per_second": 17.44,
+        "prompt_tokens": 111530,
+        "prompt_eval_seconds": 2.277,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "UUMSTCXWES"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2852747417,
+          "load_duration": 2870834,
+          "prompt_eval_count": 111530,
+          "prompt_eval_cached_count": 111018,
+          "prompt_eval_duration": 2277311000,
+          "eval_count": 7,
+          "eval_duration": 401350000,
+          "memory_samples": []
+        },
+        "key": "MIDDLE2",
+        "expected": "UUMSTCXWES",
+        "passed": true
+      },
+      {
+        "seconds": 2.846,
+        "tokens_per_second": 17.34,
+        "prompt_tokens": 111529,
+        "prompt_eval_seconds": 2.27,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "WVNFBTKMZH"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2844347458,
+          "load_duration": 2856667,
+          "prompt_eval_count": 111529,
+          "prompt_eval_cached_count": 111018,
+          "prompt_eval_duration": 2270245000,
+          "eval_count": 7,
+          "eval_duration": 403780000,
+          "memory_samples": []
+        },
+        "key": "END1",
+        "expected": "WVNFBTKMZH",
+        "passed": true
+      },
+      {
+        "seconds": 2.824,
+        "tokens_per_second": 17.11,
+        "prompt_tokens": 111529,
+        "prompt_eval_seconds": 2.246,
+        "response": {
+          "model": "qwen3.5:9b-q4_K_M",
+          "message": {
+            "role": "assistant",
+            "content": "CRBRDYDSTJ"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 2822072833,
+          "load_duration": 3123583,
+          "prompt_eval_count": 111529,
+          "prompt_eval_cached_count": 111018,
+          "prompt_eval_duration": 2246147000,
+          "eval_count": 7,
+          "eval_duration": 409188000,
+          "memory_samples": []
+        },
+        "key": "END2",
+        "expected": "CRBRDYDSTJ",
+        "passed": true
+      }
+    ],
+    "calibration": {
+      "seconds": 16.336,
+      "tokens_per_second": 27.51,
+      "prompt_tokens": 1419,
+      "prompt_eval_seconds": 2.02,
+      "response": {
+        "model": "qwen3.5:9b-q4_K_M",
+        "message": {
+          "role": "assistant",
+          "content": "KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 16335719791,
+        "load_duration": 14014788375,
+        "prompt_eval_count": 1419,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2019978000,
+        "eval_count": 8,
+        "eval_duration": 290800000,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "qwen3.5:9b-q4_K_M",
+          "model": "qwen3.5:9b-q4_K_M",
+          "size": 8398359756,
+          "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "9.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "size_vram": 8398359756,
+          "context_length": 131072,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "actual_context": 131072,
+    "memory_after_load": {
+      "swap_used_mb": 1814.38,
+      "pressure": 1
+    },
+    "document": {
+      "records": 3186,
+      "sha256": "4ac1e055cd7ef4079e2a0e543eb75b28b6a5e8eb51723121e27609dcba23b5ba",
+      "expected": {
+        "BEGIN1": "VJCTDQMKKF",
+        "BEGIN2": "LKJWXDUEFV",
+        "MIDDLE1": "LSGKENPTND",
+        "MIDDLE2": "UUMSTCXWES",
+        "END1": "WVNFBTKMZH",
+        "END2": "CRBRDYDSTJ"
+      },
+      "target_fraction": 0.82
+    },
+    "prefill": {
+      "seconds": 299.983,
+      "tokens_per_second": 16.97,
+      "prompt_tokens": 111529,
+      "prompt_eval_seconds": 518.222,
+      "response": {
+        "model": "qwen3.5:9b-q4_K_M",
+        "message": {
+          "role": "assistant",
+          "content": "VJCTDQMKKF"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 299977238833,
+        "load_duration": 4037083,
+        "prompt_eval_count": 111529,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 518221642000,
+        "eval_count": 8,
+        "eval_duration": 471459000,
+        "memory_samples": []
+      }
+    },
+    "occupancy": 0.8509,
+    "memory_after_tests": {
+      "swap_used_mb": 1205.25,
+      "pressure": 1
+    },
+    "status": "ok",
+    "prefill_passed": true,
+    "after_unload": {
+      "models": []
+    }
+  },
+  {
+    "model": "qwen3.5:9b-q4_K_M",
+    "requested_context": 262144,
+    "memory_before": {
+      "swap_used_mb": 1205.25,
+      "pressure": 1
+    },
+    "tests": [],
+    "calibration": {
+      "seconds": 29.582,
+      "tokens_per_second": 24.18,
+      "prompt_tokens": 1419,
+      "prompt_eval_seconds": 12.814,
+      "response": {
+        "model": "qwen3.5:9b-q4_K_M",
+        "message": {
+          "role": "assistant",
+          "content": "KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 29579673208,
+        "load_duration": 16395546500,
+        "prompt_eval_count": 1419,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 12814469000,
+        "eval_count": 8,
+        "eval_duration": 330847000,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "qwen3.5:9b-q4_K_M",
+          "model": "qwen3.5:9b-q4_K_M",
+          "size": 12865178168,
+          "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen35",
+            "families": [
+              "qwen35"
+            ],
+            "parameter_size": "9.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "size_vram": 9650904758,
+          "context_length": 262144,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "actual_context": 262144,
+    "memory_after_load": {
+      "swap_used_mb": 2734.44,
+      "pressure": 1
+    },
+    "status": "interrompido_por_offload",
+    "error": "262144 alocado, mas modelo com 12,87 GB totais e apenas 9,65 GB na GPU; swap 2734 MiB. Interrompido para testar cache q4_0."
+  }
+]

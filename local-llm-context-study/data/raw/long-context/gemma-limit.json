@@ -1,0 +1,70 @@
+[
+  {
+    "model": "gemma4:12b",
+    "requested_context": 131072,
+    "memory_before": {
+      "swap_used_mb": 2056.44,
+      "pressure": 1
+    },
+    "tests": [],
+    "calibration": {
+      "seconds": 17.537,
+      "tokens_per_second": 15.12,
+      "prompt_tokens": 1405,
+      "prompt_eval_seconds": 2.11,
+      "response": {
+        "model": "gemma4:12b",
+        "message": {
+          "role": "assistant",
+          "content": "KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 17536779666,
+        "load_duration": 15026811500,
+        "prompt_eval_count": 1405,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2110127875,
+        "eval_count": 6,
+        "eval_duration": 396875125,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "gemma4:12b",
+          "model": "gemma4:12b",
+          "size": 8348155844,
+          "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6",
+          "details": {
+            "parent_model": "",
+            "format": "safetensors",
+            "family": "",
+            "families": null,
+            "parameter_size": "",
+            "quantization_level": ""
+          },
+          "size_vram": 8348155844,
+          "context_length": 131072,
+          "runner": "mlx"
+        }
+      ]
+    },
+    "actual_context": 131072,
+    "memory_after_load": {
+      "swap_used_mb": 2016.44,
+      "pressure": 1
+    },
+    "status": "interrompido_por_swap",
+    "error": "Interrompido manualmente durante prefill: cerca de 88064/112703 tokens processados e swap 4607.81 MiB, acima de 2 GiB de crescimento. Sem recuperação completa nesta janela.",
+    "partial_prefill_tokens_observed": 88064,
+    "memory_at_stop": {
+      "swap_used_mb": 4607.81,
+      "pressure": 1
+    },
+    "after_unload": {
+      "models": []
+    }
+  }
+]
