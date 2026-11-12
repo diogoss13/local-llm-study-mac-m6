@@ -1,0 +1,98 @@
+{
+  "models": [
+    {
+      "name": "deepseek-coder-v2:16b",
+      "model": "deepseek-coder-v2:16b",
+      "size": 8905126121,
+      "digest": "63fb193b3a9b4322a18e8c6b250ca2e70a5ff531e962dbf95ba089b2566f2fa5",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "deepseek2",
+        "families": [
+          "deepseek2"
+        ],
+        "parameter_size": "15.7B",
+        "quantization_level": "Q4_0",
+        "context_length": 163840,
+        "embedding_length": 2048,
+        "runner": "ggml"
+      },
+      "capabilities": [
+        "completion",
+        "insert"
+      ]
+    },
+    {
+      "name": "qwen2.5-coder:14b",
+      "model": "qwen2.5-coder:14b",
+      "size": 8988124298,
+      "digest": "9ec8897f747e246e970bc5cfdda85d22f1123dc2e3d34978a010a75968716849",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "14.8B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 5120,
+        "runner": "ggml"
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "insert"
+      ]
+    },
+    {
+      "name": "gemma4:12b",
+      "model": "gemma4:12b",
+      "size": 7714091504,
+      "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6",
+      "details": {
+        "parent_model": "",
+        "format": "safetensors",
+        "family": "",
+        "families": null,
+        "parameter_size": "",
+        "quantization_level": "",
+        "runner": "mlx"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "audio",
+        "tools",
+        "thinking"
+      ]
+    },
+    {
+      "name": "qwen3.5:9b-q4_K_M",
+      "model": "qwen3.5:9b-q4_K_M",
+      "size": 6550825550,
+      "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 4096,
+        "runner": "llamacpp"
+      },
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ]
+    }
+  ]
+}

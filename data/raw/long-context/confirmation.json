@@ -1,0 +1,821 @@
+[
+  {
+    "model": "gemma4:12b",
+    "requested_context": 32768,
+    "memory_before": {
+      "swap_used_mb": 1949.88,
+      "pressure": 1
+    },
+    "tests": [
+      {
+        "seconds": 0.437,
+        "tokens_per_second": 20.03,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 0.078,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "QXPLHWLBNX"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 434992917,
+          "load_duration": 3327875,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 28176,
+          "prompt_eval_duration": 77591708,
+          "eval_count": 6,
+          "eval_duration": 299547416,
+          "memory_samples": []
+        },
+        "key": "BEGIN1",
+        "expected": "QXPLHWLBNX",
+        "passed": true
+      },
+      {
+        "seconds": 9.071,
+        "tokens_per_second": 9.55,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 8.615,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "SNWAYEQSAF"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 9070147583,
+          "load_duration": 1358750,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 24576,
+          "prompt_eval_duration": 8614959500,
+          "eval_count": 4,
+          "eval_duration": 418717667,
+          "memory_samples": []
+        },
+        "key": "BEGIN2",
+        "expected": "SNWAYEQSAF",
+        "passed": true
+      },
+      {
+        "seconds": 9.316,
+        "tokens_per_second": 11.02,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 8.704,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "AWANVMGSDC"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 9311059417,
+          "load_duration": 3921125,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 24576,
+          "prompt_eval_duration": 8703613792,
+          "eval_count": 6,
+          "eval_duration": 544250084,
+          "memory_samples": []
+        },
+        "key": "MIDDLE1",
+        "expected": "AWANVMGSDC",
+        "passed": true
+      },
+      {
+        "seconds": 0.429,
+        "tokens_per_second": 18.4,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 0.094,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "UPPRNPUBKC"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 427276625,
+          "load_duration": 3910625,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 28168,
+          "prompt_eval_duration": 94299334,
+          "eval_count": 5,
+          "eval_duration": 271798500,
+          "memory_samples": []
+        },
+        "key": "MIDDLE2",
+        "expected": "UPPRNPUBKC",
+        "passed": true
+      },
+      {
+        "seconds": 0.403,
+        "tokens_per_second": 21.67,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 0.08,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "DFPBYZQJZV"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 401225334,
+          "load_duration": 1827875,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 28168,
+          "prompt_eval_duration": 79658458,
+          "eval_count": 6,
+          "eval_duration": 276903625,
+          "memory_samples": []
+        },
+        "key": "END1",
+        "expected": "DFPBYZQJZV",
+        "passed": true
+      },
+      {
+        "seconds": 0.493,
+        "tokens_per_second": 13.91,
+        "prompt_tokens": 28180,
+        "prompt_eval_seconds": 0.085,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "YSCLVZNFRE"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 492265834,
+          "load_duration": 2248250,
+          "prompt_eval_count": 28180,
+          "prompt_eval_cached_count": 28168,
+          "prompt_eval_duration": 85036291,
+          "eval_count": 5,
+          "eval_duration": 359402250,
+          "memory_samples": []
+        },
+        "key": "END2",
+        "expected": "YSCLVZNFRE",
+        "passed": true
+      }
+    ],
+    "calibration": {
+      "seconds": 17.516,
+      "tokens_per_second": 15.18,
+      "prompt_tokens": 1405,
+      "prompt_eval_seconds": 2.106,
+      "response": {
+        "model": "gemma4:12b",
+        "message": {
+          "role": "assistant",
+          "content": "KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 17515501125,
+        "load_duration": 15012913750,
+        "prompt_eval_count": 1405,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2105656417,
+        "eval_count": 6,
+        "eval_duration": 395165833,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "gemma4:12b",
+          "model": "gemma4:12b",
+          "size": 8348155844,
+          "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6",
+          "details": {
+            "parent_model": "",
+            "format": "safetensors",
+            "family": "",
+            "families": null,
+            "parameter_size": "",
+            "quantization_level": ""
+          },
+          "size_vram": 8348155844,
+          "context_length": 32768,
+          "runner": "mlx"
+        }
+      ]
+    },
+    "actual_context": 32768,
+    "memory_after_load": {
+      "swap_used_mb": 1949.88,
+      "pressure": 1
+    },
+    "document": {
+      "records": 805,
+      "sha256": "a15c77b276aa971503c597ce20746df7cfae15d193e5103d6f3f6c230c12e9a3",
+      "expected": {
+        "BEGIN1": "QXPLHWLBNX",
+        "BEGIN2": "SNWAYEQSAF",
+        "MIDDLE1": "AWANVMGSDC",
+        "MIDDLE2": "UPPRNPUBKC",
+        "END1": "DFPBYZQJZV",
+        "END2": "YSCLVZNFRE"
+      },
+      "target_fraction": 0.82
+    },
+    "prefill": {
+      "seconds": 53.961,
+      "tokens_per_second": 10.63,
+      "prompt_tokens": 28180,
+      "prompt_eval_seconds": 53.363,
+      "response": {
+        "model": "gemma4:12b",
+        "message": {
+          "role": "assistant",
+          "content": "QXPLHWLBNX"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 53959863542,
+        "load_duration": 1137250,
+        "prompt_eval_count": 28180,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 53363389792,
+        "eval_count": 6,
+        "eval_duration": 564652417,
+        "memory_samples": []
+      }
+    },
+    "occupancy": 0.86,
+    "memory_after_tests": {
+      "swap_used_mb": 4634.94,
+      "pressure": 2
+    },
+    "status": "ok",
+    "prefill_passed": true,
+    "after_unload": {
+      "models": []
+    }
+  },
+  {
+    "model": "gemma4:12b",
+    "requested_context": 65536,
+    "memory_before": {
+      "swap_used_mb": 4634.94,
+      "pressure": 1
+    },
+    "tests": [
+      {
+        "seconds": 0.523,
+        "tokens_per_second": 17.76,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 0.08,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "GUTHKHTCYR"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 515656125,
+          "load_duration": 18622333,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 56350,
+          "prompt_eval_duration": 79782084,
+          "eval_count": 6,
+          "eval_duration": 337800542,
+          "memory_samples": []
+        },
+        "key": "BEGIN1",
+        "expected": "GUTHKHTCYR",
+        "passed": true
+      },
+      {
+        "seconds": 23.63,
+        "tokens_per_second": 10.86,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 22.981,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "KNSZQQRPVC"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 23627551541,
+          "load_duration": 5889708,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 49152,
+          "prompt_eval_duration": 22981479875,
+          "eval_count": 6,
+          "eval_duration": 552310500,
+          "memory_samples": []
+        },
+        "key": "BEGIN2",
+        "expected": "KNSZQQRPVC",
+        "passed": true
+      },
+      {
+        "seconds": 24.091,
+        "tokens_per_second": 10.37,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 23.393,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "WHFGXEYTGW"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 24081182125,
+          "load_duration": 5611333,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 49152,
+          "prompt_eval_duration": 23393371667,
+          "eval_count": 6,
+          "eval_duration": 578547541,
+          "memory_samples": []
+        },
+        "key": "MIDDLE1",
+        "expected": "WHFGXEYTGW",
+        "passed": true
+      },
+      {
+        "seconds": 0.519,
+        "tokens_per_second": 17.16,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 0.101,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "FCZDPPPEWA"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 509580458,
+          "load_duration": 23442875,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 56342,
+          "prompt_eval_duration": 101372000,
+          "eval_count": 5,
+          "eval_duration": 291362375,
+          "memory_samples": []
+        },
+        "key": "MIDDLE2",
+        "expected": "FCZDPPPEWA",
+        "passed": true
+      },
+      {
+        "seconds": 0.456,
+        "tokens_per_second": 21.34,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 0.089,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "AHFSMBCUPB"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 454056208,
+          "load_duration": 4394458,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 56342,
+          "prompt_eval_duration": 88543667,
+          "eval_count": 6,
+          "eval_duration": 281135834,
+          "memory_samples": []
+        },
+        "key": "END1",
+        "expected": "AHFSMBCUPB",
+        "passed": true
+      },
+      {
+        "seconds": 0.579,
+        "tokens_per_second": 12.55,
+        "prompt_tokens": 56354,
+        "prompt_eval_seconds": 0.088,
+        "response": {
+          "model": "gemma4:12b",
+          "message": {
+            "role": "assistant",
+            "content": "BTZKFANAAV"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 577057959,
+          "load_duration": 3888917,
+          "prompt_eval_count": 56354,
+          "prompt_eval_cached_count": 56342,
+          "prompt_eval_duration": 88388084,
+          "eval_count": 5,
+          "eval_duration": 398425333,
+          "memory_samples": []
+        },
+        "key": "END2",
+        "expected": "BTZKFANAAV",
+        "passed": true
+      }
+    ],
+    "calibration": {
+      "seconds": 17.68,
+      "tokens_per_second": 14.96,
+      "prompt_tokens": 1405,
+      "prompt_eval_seconds": 2.127,
+      "response": {
+        "model": "gemma4:12b",
+        "message": {
+          "role": "assistant",
+          "content": "KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 17678340166,
+        "load_duration": 15146929041,
+        "prompt_eval_count": 1405,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 2126952791,
+        "eval_count": 6,
+        "eval_duration": 401125167,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "gemma4:12b",
+          "model": "gemma4:12b",
+          "size": 8348155844,
+          "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6",
+          "details": {
+            "parent_model": "",
+            "format": "safetensors",
+            "family": "",
+            "families": null,
+            "parameter_size": "",
+            "quantization_level": ""
+          },
+          "size_vram": 8348155844,
+          "context_length": 65536,
+          "runner": "mlx"
+        }
+      ]
+    },
+    "actual_context": 65536,
+    "memory_after_load": {
+      "swap_used_mb": 2086.19,
+      "pressure": 1
+    },
+    "document": {
+      "records": 1610,
+      "sha256": "6d452724a8b6f7a37a94f39b561dce5946f479eb7ae7618ecd8f6f2d6547513d",
+      "expected": {
+        "BEGIN1": "GUTHKHTCYR",
+        "BEGIN2": "KNSZQQRPVC",
+        "MIDDLE1": "WHFGXEYTGW",
+        "MIDDLE2": "FCZDPPPEWA",
+        "END1": "AHFSMBCUPB",
+        "END2": "BTZKFANAAV"
+      },
+      "target_fraction": 0.82
+    },
+    "prefill": {
+      "seconds": 137.07,
+      "tokens_per_second": 9.23,
+      "prompt_tokens": 56354,
+      "prompt_eval_seconds": 136.329,
+      "response": {
+        "model": "gemma4:12b",
+        "message": {
+          "role": "assistant",
+          "content": "GUTHKHTCYR"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 137063698125,
+        "load_duration": 3515208,
+        "prompt_eval_count": 56354,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 136328626292,
+        "eval_count": 6,
+        "eval_duration": 649759083,
+        "memory_samples": []
+      }
+    },
+    "occupancy": 0.8599,
+    "memory_after_tests": {
+      "swap_used_mb": 5752.31,
+      "pressure": 2
+    },
+    "status": "ok",
+    "prefill_passed": true,
+    "after_unload": {
+      "models": []
+    }
+  },
+  {
+    "model": "deepseek-coder-v2:16b",
+    "requested_context": 32768,
+    "memory_before": {
+      "swap_used_mb": 5736.31,
+      "pressure": 1
+    },
+    "tests": [
+      {
+        "seconds": 0.886,
+        "tokens_per_second": 35.29,
+        "prompt_tokens": 27274,
+        "prompt_eval_seconds": 0.033,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada BEGIN1 é:\n\n```\nDRMVELNAES\n```"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 884924500,
+          "load_duration": 1950875,
+          "prompt_eval_count": 27274,
+          "prompt_eval_cached_count": 27273,
+          "prompt_eval_duration": 33036000,
+          "eval_count": 24,
+          "eval_duration": 680101000,
+          "memory_samples": []
+        },
+        "key": "BEGIN1",
+        "expected": "DRMVELNAES",
+        "passed": true
+      },
+      {
+        "seconds": 0.824,
+        "tokens_per_second": 35.46,
+        "prompt_tokens": 27274,
+        "prompt_eval_seconds": 0.088,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada BEGIN2 é: ARYGATZNQH."
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 823028125,
+          "load_duration": 974208,
+          "prompt_eval_count": 27274,
+          "prompt_eval_cached_count": 27268,
+          "prompt_eval_duration": 88192000,
+          "eval_count": 20,
+          "eval_duration": 563940000,
+          "memory_samples": []
+        },
+        "key": "BEGIN2",
+        "expected": "ARYGATZNQH",
+        "passed": true
+      },
+      {
+        "seconds": 0.971,
+        "tokens_per_second": 34.77,
+        "prompt_tokens": 27276,
+        "prompt_eval_seconds": 0.137,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada MIDDLE1 é: JXRLCUGVNQ."
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 970767750,
+          "load_duration": 1083250,
+          "prompt_eval_count": 27276,
+          "prompt_eval_cached_count": 27267,
+          "prompt_eval_duration": 137365000,
+          "eval_count": 23,
+          "eval_duration": 661553000,
+          "memory_samples": []
+        },
+        "key": "MIDDLE1",
+        "expected": "JXRLCUGVNQ",
+        "passed": true
+      },
+      {
+        "seconds": 0.88,
+        "tokens_per_second": 35.45,
+        "prompt_tokens": 27276,
+        "prompt_eval_seconds": 0.087,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada MIDDLE2 é: XPLHWLBNXS."
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 879673041,
+          "load_duration": 961916,
+          "prompt_eval_count": 27276,
+          "prompt_eval_cached_count": 27270,
+          "prompt_eval_duration": 86819000,
+          "eval_count": 22,
+          "eval_duration": 620673000,
+          "memory_samples": []
+        },
+        "key": "MIDDLE2",
+        "expected": "XPLHWLBNXS",
+        "passed": true
+      },
+      {
+        "seconds": 0.806,
+        "tokens_per_second": 35.69,
+        "prompt_tokens": 27274,
+        "prompt_eval_seconds": 0.098,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada END1 é: NWAYEQSAFA."
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 805566875,
+          "load_duration": 1222083,
+          "prompt_eval_count": 27274,
+          "prompt_eval_cached_count": 27267,
+          "prompt_eval_duration": 98298000,
+          "eval_count": 19,
+          "eval_duration": 532330000,
+          "memory_samples": []
+        },
+        "key": "END1",
+        "expected": "NWAYEQSAFA",
+        "passed": true
+      },
+      {
+        "seconds": 0.819,
+        "tokens_per_second": 35.51,
+        "prompt_tokens": 27274,
+        "prompt_eval_seconds": 0.086,
+        "response": {
+          "model": "deepseek-coder-v2:16b",
+          "message": {
+            "role": "assistant",
+            "content": " O código exato da entrada END2 é: WANVMGSDCU."
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 818593292,
+          "load_duration": 1039333,
+          "prompt_eval_count": 27274,
+          "prompt_eval_cached_count": 27268,
+          "prompt_eval_duration": 85678000,
+          "eval_count": 20,
+          "eval_duration": 563279000,
+          "memory_samples": []
+        },
+        "key": "END2",
+        "expected": "WANVMGSDCU",
+        "passed": true
+      }
+    ],
+    "calibration": {
+      "seconds": 19.62,
+      "tokens_per_second": 74.82,
+      "prompt_tokens": 1450,
+      "prompt_eval_seconds": 0.835,
+      "response": {
+        "model": "deepseek-coder-v2:16b",
+        "message": {
+          "role": "assistant",
+          "content": " KRQYQXEZYY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 19619042291,
+        "load_duration": 18658902208,
+        "prompt_eval_count": 1450,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 835018000,
+        "eval_count": 8,
+        "eval_duration": 106921000,
+        "memory_samples": []
+      }
+    },
+    "loaded_models": {
+      "models": [
+        {
+          "name": "deepseek-coder-v2:16b",
+          "model": "deepseek-coder-v2:16b",
+          "size": 11906444161,
+          "digest": "63fb193b3a9b4322a18e8c6b250ca2e70a5ff531e962dbf95ba089b2566f2fa5",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "deepseek2",
+            "families": [
+              "deepseek2"
+            ],
+            "parameter_size": "15.7B",
+            "quantization_level": "Q4_0"
+          },
+          "size_vram": 11630668675,
+          "context_length": 32768,
+          "runner": "llamacpp"
+        }
+      ]
+    },
+    "actual_context": 32768,
+    "memory_after_load": {
+      "swap_used_mb": 2144.56,
+      "pressure": 1
+    },
+    "document": {
+      "records": 778,
+      "sha256": "d27f3b2de6be5733a0af40a4e5588cf53022b33c668ccffaa3f79751b648cc4a",
+      "expected": {
+        "BEGIN1": "DRMVELNAES",
+        "BEGIN2": "ARYGATZNQH",
+        "MIDDLE1": "JXRLCUGVNQ",
+        "MIDDLE2": "XPLHWLBNXS",
+        "END1": "NWAYEQSAFA",
+        "END2": "WANVMGSDCU"
+      },
+      "target_fraction": 0.82
+    },
+    "prefill": {
+      "seconds": 34.707,
+      "tokens_per_second": 35.11,
+      "prompt_tokens": 27274,
+      "prompt_eval_seconds": 33.85,
+      "response": {
+        "model": "deepseek-coder-v2:16b",
+        "message": {
+          "role": "assistant",
+          "content": " O código exato da entrada BEGIN1 é:\n\n```\nDRMVELNAES\n```"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 34706108416,
+        "load_duration": 977791,
+        "prompt_eval_count": 27274,
+        "prompt_eval_cached_count": 96,
+        "prompt_eval_duration": 33849640000,
+        "eval_count": 24,
+        "eval_duration": 683605000,
+        "memory_samples": []
+      }
+    },
+    "occupancy": 0.8323,
+    "memory_after_tests": {
+      "swap_used_mb": 2056.56,
+      "pressure": 1
+    },
+    "status": "ok",
+    "prefill_passed": true,
+    "after_unload": {
+      "models": []
+    }
+  },
+  {
+    "model": "deepseek-coder-v2:16b",
+    "requested_context": 65536,
+    "memory_before": {
+      "swap_used_mb": 2056.56,
+      "pressure": 1
+    },
+    "tests": [],
+    "status": "interrompido_por_memoria_offload",
+    "error": "Janela 65536 alocada, 14.86 GB totais vs 11.64 GB na GPU; pressão de memória 2 e swap 3737 MiB. Não feito teste completo de recuperação nesta janela.",
+    "loaded_models_at_stop": {
+      "models": [
+        {
+          "name": "deepseek-coder-v2:16b",
+          "model": "deepseek-coder-v2:16b",
+          "size": 14857178969,
+          "digest": "63fb193b3a9b4322a18e8c6b250ca2e70a5ff531e962dbf95ba089b2566f2fa5",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "deepseek2",
+            "families": [
+              "deepseek2"
+            ],
+            "parameter_size": "15.7B",
+            "quantization_level": "Q4_0"
+          },
+          "size_vram": 11637421505,
+          "context_length": 65536,
+          "runner": "llamacpp"
+        }
+      ]
+    }
+  }
+]
